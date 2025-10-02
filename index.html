@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>HomePro</title>
+</head>
+  <body>
+    <header class="header" >
+      <div class="header-container" >
+        <a class="header-logo" href="./index.html">
+          <svg width="32" height="32">
+            <use href="./img/sprite/icons.svg#icon-Mark"></use>
+          </svg>
+          <span class="logo-text">HomePro</span>
+        </a>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Our Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <div class="header-text-container">
+            <span class="dot"></span>
+            <p class="header-text">24 Hour Services</p>
+          </div>
+          <button data-menu-open class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24">
+              <use href="./img/sprite/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" data-menu> 
+        <div class="container mobile-menu-container"> 
+          <div class="mobile-logo-container"> 
+            <button class="mobile-button-logo" type="button"> 
+              <svg width="32" height="32" >
+                 <use href="./img/sprite/icons.svg#icon-Mark"></use> 
+              </svg> 
+            </button> 
+            <button data-menu-close class="mobile-button-close" type="button"> 
+                <svg width="24" height="24" > <use href="./img/sprite/icons.svg#icon-IC_x"></use> 
+                </svg> 
+              </button> 
+            </div> 
+            <nav class="mobile-menu-nav"> 
+              <ul class="nav-list-mobile"> 
+                <li class="nav-item">
+                  <a class="nav-link-mobile" href="">About Us</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link-mobile" href="">Services</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link-mobile" href="">Our Blog</a>
+                </li> <li class="nav-item">
+                  <a class="nav-link-mobile" href="">Contact</a>
+                </li> 
+              </ul> 
+            </nav> 
+            <div class="mobile-text-container"> 
+            <svg width="12" height="12"> 
+              <use href="./img/sprite/icons.svg#icon-Shape"></use> 
+            </svg> 
+            <p class="mobile-text">24 Hour Services</p> 
+          </div> 
+        </div> 
+      </div>
+    </header>
+
+  <main>
+    <section class="hero">
+    <div class="hero-container">
+      <img src="./img/images/image1.jpg" alt="worker" class="hero-images">
+        <div class="hero-info-container">
+          <div class="hero-title-container">
+            <ul class="hero-list-h">
+              <li class="hero-item-h">Maintenances</li>
+              <li class="hero-item-h">Repairs</li>
+              <li class="hero-item-h">Improvements</li>
+            </ul>
+            <h1 class="hero-heading">
+              Need improvement or repair your home? we can help!
+            </h1>
+            <ul class="hero-list-w">
+              <li class="hero-item-w">
+                <svg width="24" height="24" class="hero-item-w-svg">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+                </svg>
+                Free Quotes
+              </li>
+              <li class="hero-item-w">
+                <svg width="24" height="24" class="hero-item-w-svg">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+                </svg>
+                100% Commitment-Free
+              </li>
+            </ul>
+            <button data-modal-open class="hero-button">
+              Call Us Now
+              <span class="hero-button-svg">
+                <svg width="24" height="24">
+                  <use href="./img/sprite/icons.svg#icon-IC_phone"></use>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <ul class="hero-list-f">
+            <li class="hero-item-f">
+              <span class="hero-item-f-svg">
+                <svg width="24" height="24">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Guarantee"></use>
+                </svg>
+              </span>
+              Satisfaction <br> Guarantee
+            </li>
+            <li class="hero-item-f">
+              <span class="hero-item-f-svg">
+                <svg width="24" height="24">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Clock"></use>
+                </svg>
+              </span>
+              24H <br> Availability
+            </li>
+            <li class="hero-item-f">
+              <span class="hero-item-f-svg">
+                <svg width="24" height="24">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Map-pin"></use>
+                </svg>
+              </span>
+              Local US <br> Professional
+            </li>
+            <li class="hero-item-f">
+              <span class="hero-item-f-svg">
+                <svg width="24" height="24">
+                  <use href="./img/sprite/icons.svg#icon-Ic_24-Calendar"></use>
+                </svg>
+              </span>
+              Flexible <br> Appointments
+            </li>
+          </ul>
+        </div>
+        <img src="./img/images/image2.jpg" alt="worker" class="hero-images">
+      </div>
+    </section>
+
+    <section class="proffesional-section">
+      <div class="proffesional-container">
+        <div class="proffesional-content">
+          <h2 class="proffesional-title">Professional for your home services</h2>
+          <p class="proffesional-subtitle">
+            You need help for home care? We are home care professionals focused in the US region.
+            We provide several services that support home services
+          </p>
+          <ul class="proffesional-list">
+            <li>
+              <svg width="16" height="16" >
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Repair and Installation
+            </li>
+            <li>
+              <svg width="16" height="16">
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Plumbing
+            </li>
+            <li>
+               <svg width="16" height="16">
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Maintenance
+            </li>
+            <li>
+               <svg width="16" height="16">
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Budget-friendly
+            </li>
+            <li>
+               <svg width="16" height="16">
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Home Security Services
+            </li>
+            <li>
+               <svg width="16" height="16">
+                <use href="./img/sprite/icons.svg#icon-Ic_24-Check"></use>
+              </svg>
+              Eco-friendly solutions
+            </li>
+          </ul>
+          <p class="proffesional-contact">
+            We already 24 hours fast services to help you. <br class="proffesional-contact-br">
+            You can contact us at 
+            <a href="tel:8886175894">(888) 617–5894</a>
+          </p>
+        </div>
+        <div class="proffesional-image">
+          <img src="./img/images/image4.jpg" alt="Background shape" class="proffesional-bg">
+          <img src="./img/images/image33.png" alt="Workers" class="proffesional-foreground">
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <h2>Our Services</h2>
+      <p class="services-subtitle">
+        You have problems with leaking pipes, broken tiles, lost keys or want to tidy up the trees around you, of course you need our help!
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic-Plumbing-Filled"></use>
+            </svg>
+          </div>
+          <h3>Plumbing services</h3>
+          <p>Drain pipe leaking, pipe clogged, replace the pipe line</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Roof_Filled"></use>
+            </svg>
+          </div>
+          <h3>Roofing repair</h3>
+          <p>Roof leaks, tile replacement, roof cleaning and maintenance</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Wall-Filled"></use>
+            </svg>
+          </div>
+          <h3>Mold Removal</h3>
+          <p>Removing and cleaning mildew, Restoration and Prevention</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Wood-Tree-Filled"></use>
+            </svg>
+          </div>
+          <h3>Tree Trimming</h3>
+          <p>Trimming and cleaning, Deadwood removal, Tree shaping</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Repair_Filled"></use>
+            </svg>
+          </div>
+          <h3>Appliance Repair</h3>
+          <p>Repair of washing machines, refrigerators, Air conditioner, etc</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Bathroom-Filled"></use>
+            </svg>
+          </div>
+          <h3>Bathroom Remodeling</h3>
+          <p>Design and Consulting, installation, Repairing, tile repair</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon-box">
+            <svg width="40" height="40">
+              <use href="./img/sprite/icons.svg#icon-Ic_Door-Filled"></use>
+            </svg>
+          </div>
+          <h3>Locksmith</h3>
+          <p>Lock Installation and Repair, Duplication, Lock Rekeying</p>
+        </div>
+        <div class="service-cta-card">
+          <h3>More service?</h3>
+          <p>You can tell us what you need and we can help!</p>
+          <button>Call Us Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section">
+      <div class="container">
+        <div class="featured-header">
+          <h2>Fast, Friendly, and <br> Satisfaction Guarantee</h2>
+          <p class="featured-subtitle">
+            No matter how big or small your work is, whether it’s for the interior or exterior of your home, we are ready to serve and help you solve your home problems.
+          </p>
+        </div>
+
+        <div class="featured-grid">
+          <div class="featured-card">
+            <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_Guarantee-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>Satisfaction Guarantee</h3>
+              <p>You don’t need to worry about scams or our performance results, our company has been verified and strives for optimal results.</p>
+          </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_Quotes-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>Free Quotes</h3>
+              <p>Get personalized cost estimates without any obligation. Experience transparency and peace of mind as you explore our service.</p>
+          </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_Local-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>Local Professionals</h3>
+              <p>Our services cover the Nationwide U.S. area, including urban, suburban, and rural locations for both long and short term maintenance.</p>
+          </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_24H-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>Fast 24-Hour Service</h3>
+              <p>Need fast handling for repairs to drains, leaks or something else? Our experts are available anytime to help you solve the problem.</p>
+           </div>
+          </div>
+
+          <div class="featured-card">
+           <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_Calendar-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>Flexible Appointments</h3>
+              <p>We offer convenient appointment times that can accommodate your busy schedule, day or night, 7 days a week.</p>
+          </div>
+          </div>
+
+          <div class="featured-card">
+            <div class="featured-icon-box">
+              <svg width="100" height="100">
+                <use href="./img/sprite/icons.svg#icon-Ic_Commitment-Filled"></use>
+              </svg>
+            </div>
+            <div class="featured-content">
+              <h3>100% Commitment-Free</h3>
+              <p>You are free to ask us about the problems you are facing. We offer a no-commitment approach to put your mind at ease.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="reviews-section">
+      <div class="reviews-container">
+          <h2 class="reviews-header">Here our original reviews <br> from trusted platform</h2>
+        <button class="reviews-arrow reviews-arrow-left desktop">
+          <svg width="24" height="24">
+            <use href="./img/sprite/icons.svg#icon-IC_arrow-Left"></use>
+          </svg>
+        </button>
+        <div class="reviews-content">
+          <div class="reviews-trustpilot">
+            <img src="./img/images/trustpilot.png" alt="Trustpilot">
+          </div>
+          <p class="reviews-text">
+              Roof repairs can be a real headache, but HomePro makes it easy! Their roofing 
+              team turned my leaky roof into a stockade. With their craftsmanship and the 
+              best materials, my house is now ready to weather any storm.
+          </p>
+          <div class="reviews-author-block">
+            <img src="./img/images/person.png" alt="Kende Attila" class="reviews-avatar">
+            <div class="reviews-info">
+              <h3 class="reviews-name">Kende Attila</h3>
+              <div class="reviews-stars" data-rating="4">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="reviews-arrow reviews-arrow-right desktop">
+          <svg width="24" height="24">
+            <use href="./img/sprite/icons.svg#icon-IC_arrow-Right"></use>
+          </svg>
+        </button>
+        <div class="reviews-pagination">
+          <button class="reviews-arrow reviews-arrow-left mobile">&#10094;</button>
+          <div class="reviews-indicator">
+            <span class="reviews-step bar active"></span>
+            <span class="reviews-step circle"></span>
+            <span class="reviews-step circle"></span>
+            <span class="reviews-step circle"></span>
+            </div>
+            <button class="reviews-arrow reviews-arrow-right mobile">&#10095;</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-newsletter">
+        <div class="footer-newsletter-content">
+          <div class="footer-newsletter-texts">
+            <h3 class="footer-newsletter-title">Stay Connected with Our Newsletter</h3>
+            <p class="footer-newsletter-text">
+              Subscribe to our newsletter to get more news, promo, or news services
+            </p>
+          </div>
+          <form class="footer-form">
+            <input type="email" placeholder="Enter email address" class="footer-input" />
+            <button type="submit" class="footer-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <svg width="32" height="32">
+              <use href="./img/sprite/icons.svg#icon-Mark"></use>
+            </svg>
+            <span>HomePro</span>
+          </div>
+          <p class="footer-about-text">
+              Home Pro is your premier destination for top-notch smart home service and repair.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><svg width="20" height="20"><use href="./img/sprite/icons.svg#icon-youtube"></use></svg></a>
+            <a href="#"><svg width="20" height="20"><use href="./img/sprite/icons.svg#icon-instagram"></use></svg></a>
+            <a href="#"><svg width="20" height="20"><use href="./img/sprite/icons.svg#icon-facebook"></use></svg></a>
+            <a href="#"><svg width="20" height="20"><use href="./img/sprite/icons.svg#icon-twitter"></use></svg></a>
+            <a href="#"><svg width="20" height="20"><use href="./img/sprite/icons.svg#icon-mail"></use></svg></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">License</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">©2023 HomePro . All rights reserved</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" data-modal>
+      <div class="modal">
+      <button data-modal-close type="button" class="modal-button">
+        <svg class="model-button-icon" width="8" height="8" >
+                  <use href="./img/sprite/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-text">
+        Leave your contacts and we will call you back
+      </p>
+      <form>
+        <div class="modal-form">
+          <label for="user-name" class="modal-form-label">Name</label>
+        <div class="modal-form-name-container">
+          <input id="user-name" name="user-name"  type="text" class="modal-form-name">
+          <svg class="model-form-name-icon" width="18" height="24" >
+                  <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </div>
+        </div>
+        <div class="modal-form">
+        <label for="modal-phone" class="modal-form-label">Phone</label>
+        <div class="modal-form-name-container">
+          <input id="modal-phone" name="modal-phone"  type="text" class="modal-form-name">
+          <svg class="model-form-name-icon" width="18" height="24" >
+                  <use href="./images/icons.svg#icon-tel"></use>
+          </svg>
+        </div>
+        </div>
+        <div class="modal-form">
+        <label for="modal-email" class="modal-form-label">Email</label>
+        <div class="modal-form-name-container">
+          <input id="modal-email" name="modal-email"  type="text" class="modal-form-name">
+          <svg class="model-form-name-icon" width="18" height="24" >
+                  <use href="./images/icons.svg#icon-email"></use>
+          </svg>
+        </div>
+        </div>
+        <div class="modal-form-comment-container">
+          <label for="user-comment" class="modal-form-label">Comment</label>
+          <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-form-comment"></textarea>
+        </div>
+        <div class="modal-form-privacy-container">
+          <input  id="user-privacy"  type="checkbox" value="true" name="user-privacy" class="visually-hidden">
+          <label for="user-privacy" class="modal-form-privacy">
+            <span class="modal-form-privacy-span">
+              <svg width="10" height="8" >
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+              </svg>
+            </span>
+            <span>
+              I accept the terms and conditions of the
+            <a href="" class="model-form-link-privacy"> Privacy Policy</a>
+            </span>
+          </label>
+        </div>
+        <button class="modal-button-close">
+          Send
+        </button>
+      </form>
+    </div>
+  </div> 
+  <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/star.js"></script>
+</body>
+</html>
